@@ -1,0 +1,25 @@
+{
+  "name": "tdd-sum-all",
+  "version": "1.0.0",
+  "description": "## Instructions You will be creating a function that takes in an array of numbers and returns the sum of those numbers. You will follow the TDD process in doing so. You will need to create your tests and commit, then write the function.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha ./tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielamoateng1989/tdd-sum-all.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielamoateng1989/tdd-sum-all/issues"
+  },
+  "homepage": "https://github.com/Danielamoateng1989/tdd-sum-all#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.22.0",
+    "mocha": "^8.3.2"
+  }
+}
